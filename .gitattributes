@@ -5,3 +5,4 @@ project-docs/* linguist-documentation
 
 *.js linguist-language=Javascript
 *.ejs linguist-language=Javascript
+*.json linguist-language=JavascriptObjectNotation
