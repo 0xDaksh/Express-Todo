@@ -2,7 +2,7 @@
 module.exports = function(app){
   // http verbs for handling requests and responses.
   app.get('/todo', function(req, res){
-    res.render('');
+    res.render('todo');
   });
   app.post('/todo', function(req, res){
 
