@@ -1,0 +1,7 @@
+
+src/main/resources/static/* linguist-vendored
+
+project-docs/* linguist-documentation
+
+*.js linguist-language=Javascript
+*.ejs linguist-language=Javascript
