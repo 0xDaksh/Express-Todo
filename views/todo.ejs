@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Todo List</title>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
+    <script src="/assets/addTodo.js"></script>﻿
     <link rel="stylesheet" href="/assets/styles.css" type="text/css">
   </head>
   <body>
@@ -12,6 +13,11 @@
       <form>
         <input type="text" name="item" placeholder="Add new item..." required>
         <button type="submit">Add Item</button>
+        <ul>
+          <% for(var i=0; i < todos.length; i++) { %>
+            <li><%= todos[i].item %></li>
+          <% } %>
+        </ul>
       </form>
       <ul>
       </ul>
